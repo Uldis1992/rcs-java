@@ -28,3 +28,9 @@ IntelliJ IDEA
 *.iws
 *.iml
 *.ipr
+
+IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
