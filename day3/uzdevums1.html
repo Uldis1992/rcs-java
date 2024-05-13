@@ -12,13 +12,13 @@
 <script>
 
     function task3(){
-        var inputString = document.getElementById("inputString").value;
-        var words = inputString.split(" ");
-        var longestWord = "";
+        let inputString = document.getElementById("inputString").value;
+        let words = inputString.split(" ");
+        let longestWord = "";
 
-        for (var i = 0; i<words.length; i++) {
+        for (let i = 0; i<words.length; i++) {
             if (words[i].length > longestWord.length){
-                    longestWord = words[i];
+                longestWord = words[i];
             }
         }
 
