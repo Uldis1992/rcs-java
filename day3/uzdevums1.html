@@ -16,7 +16,12 @@
         let words = inputString.split(" ");
         let longestWord = "";
 
-        for (let i = 0; i<words.length; i++) {
+        if (inputString.trim() === ""){
+                alert("Nav ierakstīti vārdi!")
+                return;
+        }
+
+        for (let i = 0; i<words.length; i++){
             if (words[i].length > longestWord.length){
                 longestWord = words[i];
             }
