@@ -1,0 +1,48 @@
+h1{
+    color: blue;
+    background-color: yellow;
+}
+
+.firstHeader{
+    color: green;
+}
+
+li{
+    padding-top: 20px;
+}
+
+.demo1{
+    width: 50%;
+}
+
+.demo1 p{
+    width: 50%;
+}
+
+.demo2{
+    background-color: brown;
+    width: 50%;
+}
+
+.btn1{
+    background-color: #16c484;
+    color: black;
+    width: 150px;
+    height: 100px;
+}
+
+.btn1:active{
+    background-color: blue;
+}
+
+.btn2{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+}
+
+.btn3{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(177, 245, 68);
+}

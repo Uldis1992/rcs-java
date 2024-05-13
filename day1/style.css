@@ -1,0 +1,25 @@
+h1{
+    color: blue;
+    background-color: yellow;
+}
+
+.firstHeader{
+    color: green;
+}
+
+li{
+    padding-top: 20px;
+}
+
+.demo1{
+    width: 50%;
+}
+
+.demo1 p{
+    width: 50%;
+}
+
+.demo2{
+    background-color: brown;
+    width: 50%;
+}

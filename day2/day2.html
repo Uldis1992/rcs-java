@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>1. nodarbība</title>
+    </head>
+    <body>
+        <div class="demo1">
+            <h1 class="firstHeader">Demo virsraksts</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="demo2">
+        
+            <h1>Saraksta piemērs</h1>
+            <!-- ul, ol -->
+            <ul>
+                <li style="color:red">Elements</li>
+                <li>Elements</li>
+                <li>Elements</li>
+                <li>Elements</li>
+            </ul>
+        </div>
+        <div class="buttons">
+            <input type="text" id="testInput">
+
+            <button class="btn1" onClick="testFunction()">Klikšķini mani!</button>
+            
+            <button id="btn2" class="btn2" onClick="sample1()">Pirmais uzdevums</button>
+        </div>
+
+        <div class="task2">
+            <input type="text" id="guessInput">
+
+            <button id="btn3" class="btn3" onClick="task2()">Klikšķini mani!</button>
+            
+        </div>
+
+        <script>
+
+            function task2(){
+                let word = document.getElementById("guessInput").value;
+
+                if(word == "Programmēšana"){
+                    document.getElementById("btn3").style.backgroundColor = "Green";
+                }else{
+                    document.getElementById("btn3").style.backgroundColor = "Red";
+                }
+            }
+            function testFunction(){
+                console.log("Hello world!");
+                let a = 4;
+                console.log(a);
+                a = "aaaa";
+                console.log(a);
+
+                let b = 3;
+                let c = "3";
+
+                if(b === c){
+                    console.log("yes");
+                }else{
+                    console.log("no");
+                }
+
+                //for(let i = 0; ...)
+
+            }
+            function sample1(){
+
+                document.getElementById("btn2").style.backgroundColor = "green";
+
+                let userInput = document.getElementById("testInput").value;
+
+                alert(userInput);
+            }
+
+            function task1(){
+                let result = 0;
+
+                for(let i = 1; i<11; i++){
+                    result = result + i;
+                }
+
+                console.log(result);
+            }
+        </script>
+        
+    </body>
+</html>
